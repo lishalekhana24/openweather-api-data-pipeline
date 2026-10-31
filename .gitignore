@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+airflow-venv/
+airflow_home/
+logs/
+data/raw/*.json
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
